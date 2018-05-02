@@ -1,0 +1,41 @@
+baseURL = "https://nagatani.github.io/"
+languageCode = "ja-jp"
+title = "Memorandum"
+theme = "hucore"
+
+hasCJKLanguage = true
+publishDir = "public"
+
+copyright = "&copy; 2018 | Follow on <a href=\"https://twitter.com/Nagatani\" target=\"_blank\">Twitter</a>"
+disqusShortname = "nagatanigithubio"
+googleAnalytics = "UA-43292130-3"
+
+[permalinks]
+post = "/:year/:month/:day/:title/"
+code = "/:year/:month/:day/:title/"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "メモにメモ以上の価値を求めるのはいけない"
+keywords = []
+author = "Nagatani"
+sharingicons = false
+
+[params.highlight]
+style = "monokai"
+languages = ["html", "java", "javascript", "go"]
+
+[[params.social]]
+url = "https://github.com/Nagatani"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/Nagatani"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"

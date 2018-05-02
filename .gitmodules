@@ -1,0 +1,10 @@
+[submodule "themes/lithium"]
+	path = themes/lithium
+	url = https://github.com/jrutheiser/hugo-lithium-theme
+[submodule "themes/hucore"]
+	path = themes/hucore
+	url = https://github.com/mgjohansen/hucore.git
+[submodule "public"]
+	path = public
+	url = https://github.com/Nagatani/nagatani.github.io.git
+	branch = master
