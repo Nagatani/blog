@@ -10,10 +10,6 @@ copyright = "&copy; 2018 | Follow on <a href=\"https://twitter.com/Nagatani\" ta
 disqusShortname = "nagatanigithubio"
 googleAnalytics = "UA-43292130-3"
 
-[permalinks]
-post = "/:year/:month/:day/:title/"
-code = "/:year/:month/:day/:title/"
-
 [taxonomies]
 tag = "tags"
 category = "categories"
@@ -23,10 +19,11 @@ description = "メモにメモ以上の価値を求めるのはいけない"
 keywords = []
 author = "Nagatani"
 sharingicons = false
+DateForm = "2006-01-02 Monday"
 
 [params.highlight]
 style = "monokai"
-languages = ["html", "java", "javascript", "go"]
+languages = []
 
 [[params.social]]
 url = "https://github.com/Nagatani"
