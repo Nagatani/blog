@@ -57,7 +57,7 @@ javascript: ( function() { var r = document.querySelector('link[rel="canonical"]
 
 ### ついでにHTML Anchor取得
 ```
-javascript: ( function() { var r = document.querySelector('link[rel="canonical"]').href.replace(/amazon.co.jp\/.*\/dp/, 'amazon.co.jp/dp'); location.href = r; indow.prompt("Link Created! - html", '<a href="' + r + '" target="_blank">' + document.title + "</a>"); })();
+javascript: ( function() { var r = document.querySelector('link[rel="canonical"]').href.replace(/amazon.co.jp\/.*\/dp/, 'amazon.co.jp/dp'); location.href = r; window.prompt("Link Created! - html", '<a href="' + r + '" target="_blank">' + document.title + "</a>"); })();
 ```
 
 ### 余談だけど
