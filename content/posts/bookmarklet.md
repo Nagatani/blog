@@ -25,7 +25,7 @@ javascript: ( function() { window.open("https://twitter.com/intent/tweet?text=" 
 javascript: ( function() { window.prompt("Link Created! - Markdown", '[' + document.title + '](' + document.location + ')'); })();
 ```
 
-## HTMLのAタグで見てるリンクを取得する(target="\_blank"付き)
+## HTMLのAタグで見てるサイトのURLを取得する(target="\_blank"付き)
 資料書いてる時にどうしても`target="\_blank"`を使いたい時に使う。
 ```
 javascript: ( function() { window.prompt("Link Created! - html", '<a href="' + document.location + '" target="_blank">' + document.title + "</a>"); })();
